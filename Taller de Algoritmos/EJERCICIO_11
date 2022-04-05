@@ -1,0 +1,18 @@
+Algoritmo calificacion_final
+	Escribir "Ingrese nota parcial 1"
+	Leer np1
+	Escribir "Ingrese nota parcial 2"
+	Leer np2
+	Escribir "Ingrese nota parcial 3"
+	Leer np3
+	Escribir "Ingrese nota examen final"
+	Leer ef
+	Escribir "Ingrese nota trabajo final"
+	Leer tf
+	promedio55<-(np1+np2+np3)/3
+	porcentaje55<-promedio55*0.55
+	porcentaje30<-ef*0.30
+	porcentaje15<-tf*0.15
+	calificacionfinal<-porcentaje30+porcentaje55+porcentaje15
+	Escribir "Su calificacion final es ", calificacionfinal
+FinAlgoritmo

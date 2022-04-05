@@ -1,0 +1,14 @@
+Algoritmo operaciones
+	Escribir "ingrese numero 1"
+	leer a
+	escribir "ingrese numero 2"
+	Leer b
+		suma<-a+b
+		resta<-a-b
+		multi<-a*b
+		divi<-a/b
+		Escribir "la suma de los numeros es = " ,suma   
+		Escribir "la resta de los numeros es = " ,resta
+		Escribir "la multiplicacion de los numeros es = ",multi
+		Escribir "la division de los numeros es = ",divi
+FinAlgoritmo

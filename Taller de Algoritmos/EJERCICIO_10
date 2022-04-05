@@ -1,0 +1,7 @@
+Algoritmo DESCUENTO_COMPRA
+	Escribir "Ingrese el valor de su compra"
+	Leer vc
+	descuento<-vc*0.15
+	vccondescuento<-vc-descuento
+	Escribir "Su compra tiene un descuento de ", descuento, " y el nuevo valor a pagar es de ", vccondescuento
+FinAlgoritmo

@@ -1,0 +1,6 @@
+Algoritmo Conversion_FtoC
+	Escribir "Ingrese temperatura en grado F"
+	Leer gradosF
+	conversion<-(gradosF-32)*(5/9)
+	Escribir "la temperatura en C° es =", conversion
+FinAlgoritmo

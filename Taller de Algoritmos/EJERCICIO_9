@@ -1,0 +1,14 @@
+Algoritmo SALARIO_BASE
+	Escribir "Ingrese su salario base"
+	Leer sb
+	Escribir "Ingrese valor venta 1"
+	Leer v1
+	Escribir "Ingrese valor venta 2"
+	Leer v2
+	Escribir "Ingrese valor venta 3"
+	Leer v3
+	vt<-v1+v2+v3
+	co<-vt*0.10
+	sbcc<-sb+co
+	Escribir "El vendedor por tres ventas va a recibir ", co, " y en total sus ingresos (salario base+comisiones) sera ", sbcc
+FinAlgoritmo

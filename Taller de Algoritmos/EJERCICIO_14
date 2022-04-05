@@ -1,0 +1,7 @@
+Algoritmo RAIZ_CUADRADA_CUBICA
+	Escribir "Ingrese el numero al cual desea sacarle raiz cuadrada y raiz cubica"
+	Leer a
+	raizcuadrada<-a^(1/2)
+	raizcubica<-a^(1/3)
+	Escribir "La raiz cuadrada del numero ", a, " es ", raizcuadrada, " y la raiz cubica es ", raizcubica
+FinAlgoritmo

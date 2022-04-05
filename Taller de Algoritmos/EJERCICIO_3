@@ -1,0 +1,9 @@
+Algoritmo perimetro
+	Escribir "Ingrese el area"
+	Leer altura
+	Escribir "Ingrese  la base"
+	Leer base
+	area<-base*altura
+	perimero<-altura*2+base*2
+	Escribir "el area es = ",area," y su perimetro = ",perimero
+FinAlgoritmo

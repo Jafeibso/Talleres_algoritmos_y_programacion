@@ -1,0 +1,7 @@
+Algoritmo punto_8_cantidad_minutos
+	Escribir "Escriba el numero que quieres ver en horas y minutos"
+	Leer a
+	h<-trunc(a/60)
+	m<-a mod 60
+	Escribir a, " minutos corresponde a ", h, " horas y ", m, " minutos" 
+FinAlgoritmo

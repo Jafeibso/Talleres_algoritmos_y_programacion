@@ -1,0 +1,10 @@
+Algoritmo hipotenusa
+	Escribir "ingrese el cateto 1"
+	Leer cateto1
+	Escribir "ingrese  la cateto 2"
+	Leer cateto2
+	
+	hipote<-RC (cateto1^2+cateto2^2)
+	Escribir "la hipotenusa es = ",hipote
+	
+FinAlgoritmo
