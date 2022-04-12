@@ -1,0 +1,7 @@
+#ENTRADAS
+compra=int(input("Ingrese el valor total de su compra: "))
+#CAJA NEGRA
+descuento=compra*0.15
+valorapagar=compra-descuento
+#SALIDA
+print("El cliente obtiene un descuento de", descuento, "Y ahora por su compra debe pagar", valorapagar)
