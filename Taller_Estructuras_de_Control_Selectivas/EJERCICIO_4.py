@@ -1,0 +1,15 @@
+v=float(input("Ingrese el valor de la compra (COP): "))
+if(v>5000000):
+    e=round(v*0.55,3)
+    b=round(v*0.30,3)
+    f=round(v*0.15,3)
+    i=round(f*0.20,3)
+    print("La empresa debe invertir de su fondo la cantidad de: ",e, " COP") 
+    print("La cantidad a prestar en el banco es de: ",b, " COP") 
+    print("La cantidad a prestar por el fabricante es de: ",f, " COP", " y el monto a pagar en interes es de: ",i, " COP")
+elif(v<5000000):
+    e1=round(v*0.70,3)
+    f1=round(v*0.30,3)
+    i1=round(f1*0.20,3)
+    print("La empresa debe invertir de su fondo la cantidad de: ",e1, " COP") 
+    print("La cantidad a prestar por el fabricante es de: ",f1, " COP", " y el monto a pagar en interes es de: ",i1, " COP")
