@@ -1,0 +1,15 @@
+d=input("Ingrese los datos de esta manera A B C D (separados con un espacio): ")
+a,b,c,d=d.split(" ")
+a=str(a)
+b=str(b)
+c=str(c)
+d=str(d)
+n=int((a+b+c+d))
+c=int(c)
+if(c>5):
+    r=round(n, -2)
+    print("El numero redondeado es:",r)
+else:
+    (c<5)
+    r=int((round(n, -2)))
+    print("El numero redondeado es:",r)
