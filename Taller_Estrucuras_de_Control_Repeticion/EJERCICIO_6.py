@@ -1,0 +1,9 @@
+n1=int(input())
+n2=int(input())
+c=0
+r=n1
+while r-n2>=0:
+    r=r-n2
+    print(r+n2, "-", n2, "=", r)
+    c=c+1
+print("La division entre", n1, "/", n2, "=", c)
