@@ -207,4 +207,19 @@ El alcalde de Antananarivo contrato a algunos alumnos de la Universidad Ean para
 archivo=open("/Users/javieribarra/Downloads/Talleres_algoritmos_y_programacion/Taller Estructura de Control For/paises.txt","a")
 archivo.write("\nUniland: Ean")
 """
+lista=[]
+capital=[]
+for i in archivo:
+  a=i.index(":")
+  for r in range(0,a):
+    lista.append(i[r])
+  a="".join(lista)
+  if (a=="Colombia"):
+    a=i.index(":")
+    for r in range(a+2,len(i)):
+      capital.append(i[r])
+      a="".join(capital)
+    print(a)
+  lista=[]
+
 archivo.close()
